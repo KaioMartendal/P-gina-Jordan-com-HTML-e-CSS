@@ -1,0 +1,146 @@
+body{
+ background-color: RGB(239, 94, 71) ;
+}
+/*NAV*/
+.container{
+    display: block;
+}
+.navigation{
+    background-color: RGB(239, 94, 71);
+    color: white;
+    height: 75px;
+    width: 1340px;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    border: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+li{
+    display: inline;
+    align-items: center;
+}
+.logo-top{
+    padding-left: 30px;
+}
+.link{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+    width: 450px;
+    padding-left: 0;
+}
+.link img{
+    width: 80px;
+    height: 75px;
+}
+.icons{
+    color: white;
+    width: 20px;
+    height: 20px;
+    padding-top: 10px;
+}
+#shopping-cart{
+    padding-right: 35px;
+}
+/*GERAL*/
+.geral{
+    display: flex;
+    background-color: RGB(239, 94, 71);
+    justify-content: space-between;
+}
+.left-menu{
+    display: block;
+}
+.tennis{
+    background-color: RGB(239, 94, 71);
+    width: 700px;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.tennis h1{
+    border: 0px;
+    margin-top: 0px;
+    padding-top: 5px;
+    font-size: 145px;
+    font-family: sans-serif;
+    font-style: oblique;
+    color: white;
+    position: relative;
+    padding-left: 150px;
+}
+#jordan{
+    border: 0px;
+    margin-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 90px;
+    position: absolute;
+    width: 650px;
+    transform: rotate(-20deg);
+}
+.logo-bottom img{
+    width: 450px;
+    height: 220px;
+    padding-left: 100px;
+}
+/*SHOP INFO*/
+.shop-info{
+    background-color: RGB(239, 94, 71);
+    width: 520px;
+}
+.avaliation{
+    padding-left: 40px;
+    padding-top: 70px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.avaliation h1{
+    font-family: sans-serif;
+    font-style: oblique;
+    font-size: 50px;
+    color: white;
+}
+.description{
+    font-family: sans-serif;
+    padding-left: 40px;
+    color: white;
+}
+#read-more{
+    text-decoration: underline;
+}
+.size-selector{
+    display: flex;
+    padding-left: 40px;
+    font-family: sans-serif;
+    font-size: 15px;
+    color: white;
+    text-decoration: underline;
+}
+.shop-button{
+    display: flex;
+    padding-left: 40px;
+    justify-content: space-between;
+    width: 300px;
+    align-items: center;
+}
+.shop-button button{
+    width: 190px;
+    height: 45px;
+    background-color: RGB(239, 94, 71);
+    border-color: white;
+    color: white;
+    font-family: sans-serif;
+    font-style: oblique;
+    font-size: 15px;
+    justify-content: center;
+}
+.shop-button h1{
+    color: white;
+    font-family: sans-serif;
+}
